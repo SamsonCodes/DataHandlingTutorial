@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package datahandlingtutorial;
+package datasavingtutorial;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -14,7 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class DataHandlingTutorial 
+public class DataSavingTutorial 
 {
     public final static String PATH = "C:\\Users\\Samson\\Documents\\NetBeansProjects\\DataHandlingTutorial\\src\\";
     
@@ -31,10 +31,10 @@ public class DataHandlingTutorial
         }
         catch (FileNotFoundException | UnsupportedEncodingException ex)
         {
-            Logger.getLogger(DataHandlingTutorial.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DataSavingTutorial.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    
     public static void main(String[] args) 
     {
        ArrayList<String> data = new ArrayList();
